@@ -1,5 +1,5 @@
 resource "aws_security_group" "lab5" {
-  name        = "smallowsshlb4"
+  name        = "smallowsshlb5"
   description = "Allow inbound SSH traffic"
   vpc_id = module.TF-VPC-Lab.vpc_id
  
@@ -19,6 +19,6 @@ resource "aws_security_group" "lab5" {
    }
 
   tags = {
-    Name = "smallow_sshlb3"
+    Name = "smallow_sshlb5"
   }
 }
