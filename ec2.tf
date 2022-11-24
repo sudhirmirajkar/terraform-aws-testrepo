@@ -9,7 +9,7 @@ module "ec2_instance" {
   key_name               = "user1"
   monitoring             = true
   vpc_security_group_ids = ["aws_security_group.lab5.id"]
-  subnet_id              = module.TF-VPC-Lab.private_subnets
+  subnet_id              = "module.TF-VPC-Lab.private_subnets"
   availability_zone = local.useaz1
   
   tags = {
