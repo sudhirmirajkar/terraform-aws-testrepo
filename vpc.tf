@@ -1,3 +1,4 @@
+*/
 module "TF-VPC-Lab" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "3.18.1"
@@ -18,7 +19,7 @@ module "TF-VPC-Lab" {
   }
   }
 
-/*
+
 resource "aws_vpc" "lab3" {
   cidr_block       = "172.20.0.0/16"
   

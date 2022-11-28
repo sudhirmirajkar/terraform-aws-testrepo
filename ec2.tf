@@ -1,3 +1,4 @@
+/*
 module "ec2_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "~> 3.0"
@@ -18,7 +19,6 @@ module "ec2_instance" {
   }
 }
 
-/*
 resource "aws_instance" "lab5" {
   ami               = data.aws_ami.goldstandardami.id
   instance_type     = var.ec2typevar

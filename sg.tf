@@ -1,3 +1,4 @@
+/*
 resource "aws_security_group" "lab5" {
   name        = "smallowsshlb5"
   description = "Allow inbound SSH traffic"
@@ -22,3 +23,4 @@ resource "aws_security_group" "lab5" {
     Name = "smallow_sshlb5"
   }
 }
+*/
